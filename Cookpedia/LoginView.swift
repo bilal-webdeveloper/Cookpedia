@@ -10,10 +10,12 @@ import SwiftUI
 struct LoginView: View {
     var body: some View {
         VStack {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            Text("Hello, World!")
                 .background(Color.blue)
                 .font(.system(size: 175))
         }
+        .navigationBarBackButtonHidden(true)
+        .navigationBarItems(leading: BackButton())
         .padding(24)
     }
 }

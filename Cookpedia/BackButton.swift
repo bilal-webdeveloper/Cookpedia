@@ -8,13 +8,19 @@
 import SwiftUI
 
 struct BackButton: View {
+    
+    @Environment(\.presentationMode) var presentationMode
+    
     var body: some View {
         Button {
             self.presentationMode.wrappedValue.dismiss()
         } label: {
-            <#code#>
+            Image("arrow-left")
+                .resizable()
+                .frame(width: 28, height: 28)
+                .foregroundColor(Color("Greyscale900"))
         }
-
+        .padding(.leading, 7)
     }
 }
 

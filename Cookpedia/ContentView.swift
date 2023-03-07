@@ -72,7 +72,6 @@ struct ContentView: View {
                         }
                         NavigationLink {
                             LoginView()
-                                
                         } label: {
                             HStack {
                                 Spacer()
@@ -90,8 +89,7 @@ struct ContentView: View {
                 .padding(.horizontal, 126)
             }
         }
-        .navigationBarBackButtonHidden(true)
-        .navigationBarItems(leading: BackButton())
+        
     }
 }
 
