@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9C52C88629B746D1004A1E41 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52C88529B746D1004A1E41 /* BackButton.swift */; };
+		9C52C88829B7875F004A1E41 /* ForgottenPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52C88729B7875F004A1E41 /* ForgottenPassword.swift */; };
 		9C72788E29B68ABF00E740C3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C72788D29B68ABF00E740C3 /* LoginView.swift */; };
 		9C93A2EB29B651EF00CE5943 /* CookpediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C93A2EA29B651EF00CE5943 /* CookpediaApp.swift */; };
 		9C93A2ED29B651EF00CE5943 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C93A2EC29B651EF00CE5943 /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		9C52C88529B746D1004A1E41 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		9C52C88729B7875F004A1E41 /* ForgottenPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgottenPassword.swift; sourceTree = "<group>"; };
 		9C72788D29B68ABF00E740C3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		9C93A2E729B651EF00CE5943 /* Cookpedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cookpedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C93A2EA29B651EF00CE5943 /* CookpediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookpediaApp.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				9C93A2EA29B651EF00CE5943 /* CookpediaApp.swift */,
 				9C93A2EC29B651EF00CE5943 /* ContentView.swift */,
 				9C52C88529B746D1004A1E41 /* BackButton.swift */,
+				9C52C88729B7875F004A1E41 /* ForgottenPassword.swift */,
 				9C72788D29B68ABF00E740C3 /* LoginView.swift */,
 				9C93A2EE29B651F000CE5943 /* Assets.xcassets */,
 				9C93A2F029B651F000CE5943 /* Preview Content */,
@@ -229,6 +232,7 @@
 				9C72788E29B68ABF00E740C3 /* LoginView.swift in Sources */,
 				9C93A2ED29B651EF00CE5943 /* ContentView.swift in Sources */,
 				9C93A2EB29B651EF00CE5943 /* CookpediaApp.swift in Sources */,
+				9C52C88829B7875F004A1E41 /* ForgottenPassword.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

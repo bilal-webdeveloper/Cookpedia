@@ -20,7 +20,6 @@ struct BackButton: View {
                 .frame(width: 28, height: 28)
                 .foregroundColor(Color("Greyscale900"))
         }
-        .padding(.leading, 7)
     }
 }
 
