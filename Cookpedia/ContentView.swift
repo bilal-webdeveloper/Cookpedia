@@ -9,10 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
         NavigationView {
             ZStack {
-                Image("background-image")
+                Image("background")
                     .resizable()
                     .scaledToFill()
                     .edgesIgnoringSafeArea(.all)
@@ -26,7 +25,7 @@ struct ContentView: View {
                                 .font(.custom("Urbanist-Bold", size: 40))
                                 .foregroundColor(Color("Primary"))
                         }
-                        Text("The best cooking and food recipes \napp of the century.")
+                        Text("The best cooking and food recipes app of the century.")
                             .foregroundColor(Color("White"))
                             .multilineTextAlignment(.center)
                             .font(.custom("Urbanist-Medium", size: 20))
@@ -86,9 +85,11 @@ struct ContentView: View {
                         }
                     }
                 }
-                .padding(.horizontal, 126)
+                .padding(.horizontal, 48)
+                .padding(.top, 13)
             }
         }
+        .navigationBarBackButtonHidden(true)
     }
 }
 

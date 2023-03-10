@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct ForgottenPassword: View {
+    
+    @State private var email = ""
+    @FocusState private var emailFieldIsFocused: Bool
+    
     var body: some View {
         VStack {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            Text("forgotten password")
         }
-        .navigationBarTitle("")
-        .navigationBarHidden(true)
+        .navigationBarBackButtonHidden(true)
     }
 }
 
