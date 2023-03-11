@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C20B0FF29BCE0CA00857FC2 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C20B0FE29BCE0CA00857FC2 /* Data.swift */; };
+		9C20B10129BD285B00857FC2 /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C20B10029BD285B00857FC2 /* CountryView.swift */; };
+		9C20B10329BD323900857FC2 /* CountryViewDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C20B10229BD323900857FC2 /* CountryViewDetails.swift */; };
 		9C52C88629B746D1004A1E41 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52C88529B746D1004A1E41 /* BackButton.swift */; };
 		9C52C88829B7875F004A1E41 /* ForgottenPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52C88729B7875F004A1E41 /* ForgottenPassword.swift */; };
 		9C72788E29B68ABF00E740C3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C72788D29B68ABF00E740C3 /* LoginView.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C20B0FE29BCE0CA00857FC2 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		9C20B10029BD285B00857FC2 /* CountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
+		9C20B10229BD323900857FC2 /* CountryViewDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewDetails.swift; sourceTree = "<group>"; };
 		9C52C88529B746D1004A1E41 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
 		9C52C88729B7875F004A1E41 /* ForgottenPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgottenPassword.swift; sourceTree = "<group>"; };
 		9C72788D29B68ABF00E740C3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -101,8 +107,11 @@
 				9C52C88529B746D1004A1E41 /* BackButton.swift */,
 				9C52C88729B7875F004A1E41 /* ForgottenPassword.swift */,
 				9C72788D29B68ABF00E740C3 /* LoginView.swift */,
+				9C20B10029BD285B00857FC2 /* CountryView.swift */,
+				9C20B0FE29BCE0CA00857FC2 /* Data.swift */,
 				9C93A2EE29B651F000CE5943 /* Assets.xcassets */,
 				9C93A2F029B651F000CE5943 /* Preview Content */,
+				9C20B10229BD323900857FC2 /* CountryViewDetails.swift */,
 			);
 			path = Cookpedia;
 			sourceTree = "<group>";
@@ -228,10 +237,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C20B10329BD323900857FC2 /* CountryViewDetails.swift in Sources */,
 				9C52C88629B746D1004A1E41 /* BackButton.swift in Sources */,
+				9C20B0FF29BCE0CA00857FC2 /* Data.swift in Sources */,
 				9C72788E29B68ABF00E740C3 /* LoginView.swift in Sources */,
 				9C93A2ED29B651EF00CE5943 /* ContentView.swift in Sources */,
 				9C93A2EB29B651EF00CE5943 /* CookpediaApp.swift in Sources */,
+				9C20B10129BD285B00857FC2 /* CountryView.swift in Sources */,
 				9C52C88829B7875F004A1E41 /* ForgottenPassword.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

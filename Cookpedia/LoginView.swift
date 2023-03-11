@@ -238,6 +238,7 @@ struct LoginView: View {
                     .padding(.horizontal, 24)
                     .padding(.top, 24)
                     .padding(.bottom)
+                    
                 }
 
             }

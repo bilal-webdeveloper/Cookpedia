@@ -56,7 +56,7 @@ struct ContentView: View {
                             }
                         }
                         NavigationLink {
-                            Text("hello world")
+                            CountryView()
                         } label: {
                             HStack {
                                 Spacer()
